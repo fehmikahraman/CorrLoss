@@ -29,7 +29,7 @@ Please cite the paper if you benefit from our paper or the repository:
 
 
 ## Training Code
-The configuration files of all models listed above can be found in the `configs/correlation` folder. You can follow [introduction.md](docs/1_exist_data_model.md) for training code. As an example, to train Sparse R-CNN with our Correlation Loss on 4 GPUs as we did, use the following command:
+The configuration files of all models listed above can be found in the `configs/CorrLoss` folder. You can follow [introduction.md](docs/1_exist_data_model.md) for training code. As an example, to train Sparse R-CNN with our Correlation Loss on 4 GPUs as we did, use the following command:
 
 ```
 ./tools/dist_train.sh configs/CorrLoss/sparse_rcnn_r50_fpn_1x_coco_spearman_02.py 4
