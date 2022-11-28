@@ -36,7 +36,7 @@ The configuration files of all models listed above can be found in the `configs/
 ```
 
 ## Test Code
-The configuration files of all models listed above can be found in the `configs/correlation` folder. You can follow [introduction.md](docs/1_exist_data_model.md) for test code. As an example, first download a trained model using the links provided in the tables or you train a model, then run the following command to test an object detection model on multiple GPUs:
+The configuration files of all models listed above can be found in the `configs/CorrLoss` folder. You can follow [introduction.md](docs/1_exist_data_model.md) for test code. As an example, first download a trained model using the links provided in the tables or you train a model, then run the following command to test an object detection model on multiple GPUs:
 
 ```
 ./tools/dist_test.sh configs/CorrLoss/sparse_rcnn_r50_fpn_1x_coco_spearman_02.py ${CHECKPOINT_FILE} 4 --eval bbox 
