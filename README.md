@@ -12,12 +12,10 @@ The official implementation of Correlation Loss. Our implementation is based on 
 
 Please cite the paper if you benefit from our paper or the repository:
 ```
-@inproceedings{CorrLoss,
-       title = {Correlation Loss: Enforcing Correlation between Classification and Localization},
-       author = {Fehmi Kahraman and Kemal Oksuz and Sinan Kalkan and Emre Akbas},
-       booktitle = {Association for the Advancement of Artificial Intelligence (AAAI)},
-       year = {2023}
-}
+Kahraman, F., Oksuz, K., Kalkan, S., & Akbas, E. (2023).
+Correlation Loss: Enforcing Correlation between Classification and Localization.
+Proceedings of the AAAI Conference on Artificial Intelligence, 37(1), 1087-1095.
+https://doi.org/10.1609/aaai.v37i1.25190
 ```
 
 
